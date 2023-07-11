@@ -2,37 +2,68 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is regression analysis used for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To describe the relationship between two or more variables.",
+        "b": "To establish causation between two or more variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Regression analysis is used to describe the relationship between two or more variables and understand how changes in one variable are associated with changes in another.",
+        "b": "This statement is incorrect. Regression analysis can identify associations between variables, but it cannot establish causation."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the difference between simple linear regression and multiple linear regression?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Simple linear regression involves one dependent variable and multiple independent variables, while multiple linear regression involves multiple dependent variables and one independent variable.",
+        "b": "Simple linear regression involves one dependent variable and one independent variable, while multiple linear regression involves multiple dependent variables and multiple independent variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This statement is incorrect. Simple linear regression involves one dependent variable and one independent variable, while multiple linear regression involves multiple dependent variables and multiple independent variables.",
+        "b": "Simple linear regression involves one dependent variable and one independent variable, while multiple linear regression involves multiple dependent variables and multiple independent variables."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of the residual plot in regression analysis?",
+      "answers": {
+        "a": "To check the linearity assumption between the dependent and independent variables.",
+        "b": "To examine the randomness and homogeneity of residuals."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The residual plot is not used to check the linearity assumption between the dependent and independent variables.",
+        "b": "The residual plot is used to examine the randomness and homogeneity of residuals, helping to assess the validity of the regression model."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of the R-squared value in regression analysis?",
+      "answers": {
+        "a": "To measure the strength of the relationship between the dependent and independent variables.",
+        "b": "To assess the proportion of variance in the dependent variable explained by the independent variable(s)."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The R-squared value does not measure the strength of the relationship between the dependent and independent variables.",
+        "b": "The R-squared value assesses the proportion of variance in the dependent variable explained by the independent variable(s), indicating the goodness of fit of the regression model."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of hypothesis testing in regression analysis?",
+      "answers": {
+        "a": "To determine if there is a significant relationship between the dependent and independent variables.",
+        "b": "To determine if the regression coefficients are equal to zero."
+      },
+      "explanations": {
+        "a": "Hypothesis testing in regression analysis is used to determine if there is a significant relationship between the dependent and independent variables.",
+        "b": "This statement is incorrect. Hypothesis testing in regression analysis is not focused on testing if the regression coefficients are equal to zero, but rather on assessing the significance of the relationship between variables."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
