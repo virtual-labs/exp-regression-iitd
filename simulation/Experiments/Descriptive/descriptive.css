@@ -1,0 +1,290 @@
+/* this file should contain base reset, header and footer styles, theme colors */
+
+
+/* Start of theme variables ---------------------------------------------------------------------------*/
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #ee9329;
+    --main-blue: #0951a5;
+    --main-gray: #303841;
+    --main-background: #f6efef;
+    --main-Paragraph: #2e2e2e;
+    --main-Headline: #181818;
+    --main-Button-text: #181818;
+    --main-button: #4fc4cf;
+    --main-stroke: #181818;
+    --main-highlight: #4fc4cf;
+    --main-primary: #ffffff;
+    --main-secondary: #303841;
+    --main-tertiary: #fbdd74;
+}
+
+
+/* End of theme colors --------------------------------------------------------------------------------*/
+
+
+/*Start of Base styles reset ----------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* box-sizing and font sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+/* 1200px / 16px = 75em */
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+
+/* 980px / 16px = 61.25em */
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+
+/* 460px / 16px = 28.75em */
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+/*End of Base styles reset----------------------------------------------------------------------------*/
+
+
+/* Start of Default element styles ---------------------------------------------------------------------*/
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-Paragraph);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    background-color: var(--main-button);
+    color: var(--main-Button-text);
+    border-radius: 10%;
+    padding: 0 0.5rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    /* 18px */
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.4;
+    color: var(--main-stroke);
+    background-color: var(--main-background);
+    /* padding-bottom: 10vh; */
+    /* padding-top: 10vh; */
+}
+
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr 5vh;
+    height: 100vh;
+}
+
+
+/* End of Default element styles ---------------------------------------------------------------------*/
+
+
+/* Start of Header Styles-------------------------------------------------------------------------------- */
+
+
+/* nav */
+
+header {
+    /* position: fixed; */
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-auto-flow: column;
+    justify-content: end;
+    padding: 0 1vw;
+    align-items: center;
+    /* top: 0; */
+    width: 100vw;
+    /* min-height: 8vh; */
+    color: var(--main-primary);
+    background-color: var(--main-secondary);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    /* z-index: 10; */
+    margin-bottom: 1vh;
+}
+
+#home-button {
+    /* position: absolute; */
+    /* right: 2rem; */
+    /* margin-left: rem; */
+    margin-right: 1rem
+}
+
+header * {
+    color: var(--main-primary);
+}
+
+
+/* header a{
+    position: absolute;
+    display: inline;
+    right: 1rem;
+  } */
+
+header h4 {
+    margin: 1rem;
+    /* left: 1rem; */
+}
+
+
+/* End of Header Styles-------------------------------------------------------------------------------- */
+
+
+/* Start of basic containter */
+
+.inline-grid-container {
+    display: grid;
+    /* padding: 0rem; */
+    grid-auto-flow: row;
+    /* grid-template-columns: repeat(6,auto); */
+}
+
+.inline-flex-container {
+    display: inline-flex;
+    /* padding: 1rem; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    /* gap: 0; */
+    /* grid-template-columns: repeat(6,auto); */
+}
+
+
+/* End of basic containter */
+
+
+/* start of main containter */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+}
+
+.left {
+    /* padding: 1rem; */
+    display: grid;
+    grid-template-rows: auto auto 100px;
+    height: 100%;
+}
+
+.right {
+    /* padding: 1rem; */
+    display: grid;
+    /* grid-template-rows: 100%; */
+    height: 100%;
+}
+
+#Sample_1,
+#Sample_2 {
+    width: 100%;
+    min-height: 8vh;
+    margin-top: 1vh;
+    font-size: 1.8rem;
+    padding-left: 5px;
+}
+
+#data-result-area,
+#data-input-area,
+#graph-input-area,
+#graph-result-area {
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#myChart {
+    width: calc(100% - 3px);
+    height: 70vh;
+    overflow: scroll;
+}
+
+#graph-result-area {
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    overflow: scroll;
+}
+
+
+/* End of main containter */
+
+
+/* Start of Footer Styles-------------------------------------------------------------------------------- */
+
+footer {
+    /* position: fixed; */
+    width: 100vw;
+    height: 100%;
+    padding: 0 1vw;
+    /* margin-top: 6vw; */
+    display: flex;
+    align-items: center;
+    /* bottom: 0 ; */
+    color: var(--main-primary);
+    background-color: var(--main-secondary);
+}
+
+footer a {
+    color: var(--main-primary);
+}
+
+
+/* Start of Footer Styles-------------------------------------------------------------------------------- */
