@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of regression analysis in statistics?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To calculate the mean of a dataset.",
+        "b": "To model and analyze the relationship between a dependent variable and one or more independent variables, facilitating prediction and understanding of their associations.",
+        "c": "To find the mode of a dataset.",
+        "d": "To perform hypothesis testing."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Calculating the mean is not the primary purpose of regression analysis.",
+        "b": "Correct. Regression analysis models and analyzes the relationship between variables for prediction and understanding.",
+        "c": "Incorrect. Finding the mode is not the primary purpose of regression analysis.",
+        "d": "Incorrect. Hypothesis testing is a different statistical concept."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a simple linear regression equation Y = β₀ + β₁X + ε, what does β₀ represent?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The error term.",
+        "b": "The slope of the line.",
+        "c": "The intercept (the value of Y when X is 0).",
+        "d": "The variance of the dataset."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. β₀ represents the intercept, not the error term.",
+        "b": "Incorrect. The slope is represented by β₁.",
+        "c": "Correct. β₀ is the intercept, representing the value of Y when X is 0.",
+        "d": "Incorrect. β₀ is not related to the variance of the dataset."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the coefficient of determination (R²) indicate in regression analysis?",
+      "answers": {
+        "a": "It measures the strength of the relationship between the independent and dependent variables.",
+        "b": "It quantifies the proportion of the variance in the dependent variable that is predictable from the independent variables.",
+        "c": "It calculates the sum of squares of residuals.",
+        "d": "It determines the p-value of the regression equation."
+      },
+      "explanations": {
+        "a": "Incorrect. While R² measures relationship strength, its primary purpose is different.",
+        "b": "Correct. R² quantifies the proportion of variance in the dependent variable predictable from independent variables.",
+        "c": "Incorrect. R² is not related to the sum of squares of residuals.",
+        "d": "Incorrect. R² is not used to determine the p-value."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What are residuals in the context of regression analysis?",
+      "answers": {
+        "a": "The independent variables in the regression equation.",
+        "b": "The predicted values of the dependent variable.",
+        "c": "The differences between the observed and predicted values of the dependent variable.",
+        "d": "The intercept of the regression equation."
+      },
+      "explanations": {
+        "a": "Incorrect. Residuals are not the independent variables.",
+        "b": "Incorrect. Predicted values are not residuals.",
+        "c": "Correct. Residuals are the differences between observed and predicted values of the dependent variable.",
+        "d": "Incorrect. The intercept is represented by β₀ in the regression equation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a key assumption in regression analysis regarding residuals?",
+      "answers": {
+        "a": "Residuals must be perfectly correlated with the independent variables.",
+        "b": "Residuals should have a mean of zero.",
+        "c": "Residuals must be equal to the observed values.",
+        "d": "Residuals should follow a perfect linear pattern."
+      },
+      "explanations": {
+        "a": "Incorrect. Perfect correlation with independent variables is not a requirement for residuals.",
+        "b": "Correct. A mean of zero indicates accurate predictions on average.",
+        "c": "Incorrect. Residuals are the differences between observed and predicted values.",
+        "d": "Incorrect. Perfect linearity is not necessary for residuals."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
