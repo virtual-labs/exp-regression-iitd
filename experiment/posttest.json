@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Consider a dataset with X values [2, 4, 6, 8] and corresponding Y values [5, 9, 12, 15]. What is the slope (β₁) of the simple linear regression line for this data?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1.5",
+        "b": "2.5",
+        "c": "3.0",
+        "d": "4.0"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Please check the calculation for the slope with the given dataset.",
+        "b": "Correct. Using the formula for simple linear regression slope: \( β₁ = \frac{n(\sum{XY}) - (\sum{X})(\sum{Y})}{n(\sum{X^2}) - (\sum{X})^2} = 2.5 \)",
+        "c": "Incorrect. Please check the calculation for the slope with the given dataset.",
+        "d": "Incorrect. Please check the calculation for the slope with the given dataset."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "A multiple linear regression model predicts sales (Y) based on two independent variables: advertising expenditure (X₁ in $1000s) and number of salespeople (X₂). If the model equation is \( Y = 2X₁ + 3X₂ - 10 \), and a new data point has \( X₁ = 5 \) and \( X₂ = 8 \), what is the predicted sales?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "11",
+        "b": "17",
+        "c": "15",
+        "d": "18"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Please substitute the given values into the regression equation and recalculate.",
+        "b": "Correct. Substituting \( X₁ = 5 \) and \( X₂ = 8 \) into the regression equation: \( Y = 2(5) + 3(8) - 10 = 17 \).",
+        "c": "Incorrect. Please check the calculation with the given values.",
+        "d": "Incorrect. Please check the calculation with the given values."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Consider a dataset with X values [3, 5, 7, 9] and corresponding Y values [10, 12, 9, 14]. What is the coefficient of determination (R²) for the simple linear regression model fitted to this data?",
+      "answers": {
+        "a": "0.56",
+        "b": "0.64",
+        "c": "0.72",
+        "d": "0.81"
+      },
+      "explanations": {
+        "a": "Incorrect. Please recheck the calculation for R² using the given dataset.",
+        "b": "Incorrect. Please recheck the calculation for R² using the given dataset.",
+        "c": "Incorrect. Please recheck the calculation for R² using the given dataset.",
+        "d": "Correct. R² can be calculated using the formula: \( R² = 1 - \frac{SSR}{SST} \), where SSR is the sum of squared residuals and SST is the total sum of squares. In this case, \( R² = 1 - \frac{34}{180} = 0.81 \)."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A researcher conducts a regression analysis between the number of hours studied (X) and the score obtained in an exam (Y) for a sample of 20 students. The resulting regression equation is \( Y = 5X + 30 \). If a student studies for 8 hours, what is the predicted exam score?",
+      "answers": {
+        "a": "65",
+        "b": "70",
+        "c": "85",
+        "d": "90"
+      },
+      "explanations": {
+        "a": "Incorrect. Please check the calculation for the predicted score with the given regression equation.",
+        "b": "Correct. Substituting \( X = 8 \) into the regression equation: \( Y = 5(8) + 30 = 70 \).",
+        "c": "Incorrect. Please check the calculation for the predicted score with the given regression equation.",
+        "d": "Incorrect. Please check the calculation for the predicted score with the given regression equation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A dataset of 15 samples shows a correlation coefficient (r) of -0.68 between two variables X and Y. What does this value indicate about their relationship?",
+      "answers": {
+        "a": "A moderate positive linear relationship.",
+        "b": "A strong positive linear relationship.",
+        "c": "A moderate negative linear relationship.",
+        "d": "A strong negative linear relationship."
+      },
+      "explanations": {
+        "a": "Incorrect. A negative correlation coefficient indicates a negative relationship.",
+        "b": "Incorrect. A negative correlation coefficient indicates a negative relationship.",
+        "c": "Correct. A correlation coefficient of -0.68 indicates a moderate negative linear relationship.",
+        "d": "Incorrect. A negative correlation coefficient indicates a negative relationship, not necessarily strong."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }
