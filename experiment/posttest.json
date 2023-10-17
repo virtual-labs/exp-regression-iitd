@@ -53,7 +53,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "A researcher conducts a regression analysis between the number of hours studied (X) and the score obtained in an exam (Y) for a sample of 20 students. The resulting regression equation is \( Y = 5X + 30 \). If a student studies for 8 hours, what is the predicted exam score?",
+      "question": "A researcher conducts a regression analysis between the number of hours studied (X) and the score obtained in an exam (Y) for a sample of 20 students. The resulting regression equation is Y = 5X + 30. If a student studies for 8 hours, what is the predicted exam score?",
       "answers": {
         "a": "65",
         "b": "70",
@@ -62,7 +62,7 @@
       },
       "explanations": {
         "a": "Incorrect. Please check the calculation for the predicted score with the given regression equation.",
-        "b": "Correct. Substituting \( X = 8 \) into the regression equation:  Y = 5(8) + 30 = 70 .",
+        "b": "Correct. Substituting  X = 8  into the regression equation:  Y = 5(8) + 30 = 70 .",
         "c": "Incorrect. Please check the calculation for the predicted score with the given regression equation.",
         "d": "Incorrect. Please check the calculation for the predicted score with the given regression equation."
       },
