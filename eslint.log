@@ -1,0 +1,130 @@
+
+/home/runner/work/exp-regression-iitd/exp-regression-iitd/experiment/simulation/Experiments/Descriptive/mean/changeFile.js
+  1:10  warning  'change' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-regression-iitd/exp-regression-iitd/experiment/simulation/Experiments/Descriptive/script.js
+    5:10  warning  'createSampleInputs' is defined but never used                 no-unused-vars
+   50:10  warning  'getData' is defined but never used                            no-unused-vars
+  184:1   warning  'google' is not defined                                        no-undef
+  186:10  warning  'makeLineChart' is defined but never used                      no-unused-vars
+  208:20  warning  'google' is not defined                                        no-undef
+  233:21  warning  'google' is not defined                                        no-undef
+  243:10  warning  'makeScatterChart' is defined but never used                   no-unused-vars
+  265:20  warning  'google' is not defined                                        no-undef
+  292:21  warning  'google' is not defined                                        no-undef
+  313:10  warning  'makeAreaChart' is defined but never used                      no-unused-vars
+  335:20  warning  'google' is not defined                                        no-undef
+  361:21  warning  'google' is not defined                                        no-undef
+  379:1   warning  'google' is not defined                                        no-undef
+  381:10  warning  'makeTableChart' is defined but never used                     no-unused-vars
+  400:20  warning  'google' is not defined                                        no-undef
+  423:21  warning  'google' is not defined                                        no-undef
+  439:10  warning  'calculateSpearmanRankCorrelation' is defined but never used   no-unused-vars
+  479:10  warning  'calculatePearsonCorrelation' is defined but never used        no-unused-vars
+  525:10  warning  'createArrayInput' is defined but never used                   no-unused-vars
+  621:10  warning  'correlationCoefficientGroupedData' is defined but never used  no-unused-vars
+  667:11  warning  'regressionInterceptX' is assigned a value but never used      no-unused-vars
+  669:11  warning  'regressionInterceptY' is assigned a value but never used      no-unused-vars
+  722:27  warning  'Chart' is not defined                                         no-undef
+  727:11  warning  'canvasWidth' is assigned a value but never used               no-unused-vars
+  728:11  warning  'canvasHeight' is assigned a value but never used              no-unused-vars
+  752:9   warning  'Chart' is not defined                                         no-undef
+  761:10  warning  'calculateRegression' is defined but never used                no-unused-vars
+  837:27  warning  'Chart' is not defined                                         no-undef
+  842:11  warning  'canvasWidth' is assigned a value but never used               no-unused-vars
+  843:11  warning  'canvasHeight' is assigned a value but never used              no-unused-vars
+  867:9   warning  'Chart' is not defined                                         no-undef
+
+/home/runner/work/exp-regression-iitd/exp-regression-iitd/experiment/simulation/Scripts/chart.js
+    880:9   warning  'mode' is defined but never used                                          no-unused-vars
+   1088:20  warning  'element' is defined but never used                                       no-unused-vars
+   1088:29  warning  'start' is defined but never used                                         no-unused-vars
+   1088:36  warning  'count' is defined but never used                                         no-unused-vars
+   1088:43  warning  'mode' is defined but never used                                          no-unused-vars
+   2585:5   warning  Definition for rule '@typescript-eslint/no-empty-function' was not found  @typescript-eslint/no-empty-function
+   3163:17  warning  'canvas' is defined but never used                                        no-unused-vars
+   3163:25  warning  'aspectRatio' is defined but never used                                   no-unused-vars
+   3164:17  warning  'context' is defined but never used                                       no-unused-vars
+   3167:19  warning  'chart' is defined but never used                                         no-unused-vars
+   3167:26  warning  'type' is defined but never used                                          no-unused-vars
+   3167:32  warning  'listener' is defined but never used                                      no-unused-vars
+   3168:22  warning  'chart' is defined but never used                                         no-unused-vars
+   3168:29  warning  'type' is defined but never used                                          no-unused-vars
+   3168:35  warning  'listener' is defined but never used                                      no-unused-vars
+   3180:13  warning  'canvas' is defined but never used                                        no-unused-vars
+   3183:15  warning  'config' is defined but never used                                        no-unused-vars
+   3407:24  warning  'canvas.width' is assigned to itself                                      no-self-assign
+   3779:13  warning  'index' is defined but never used                                         no-unused-vars
+   4213:19  warning  'value' is defined but never used                                         no-unused-vars
+   4213:26  warning  'index' is defined but never used                                         no-unused-vars
+   4216:19  warning  'pixel' is defined but never used                                         no-unused-vars
+  10091:16  warning  'index' is defined but never used                                         no-unused-vars
+  11068:13  warning  'index' is defined but never used                                         no-unused-vars
+
+/home/runner/work/exp-regression-iitd/exp-regression-iitd/experiment/simulation/Scripts/recovery.js
+   178:25  warning  Unexpected negating the left operand of 'in' operator  no-unsafe-negation
+   499:26  warning  'D' is already defined                                 no-redeclare
+   700:30  warning  'X' is already defined                                 no-redeclare
+   712:30  warning  'X' is already defined                                 no-redeclare
+   735:9   warning  'module' is not defined                                no-undef
+   736:10  warning  'exports' is not defined                               no-undef
+   736:20  warning  'module' is not defined                                no-undef
+   737:10  warning  'exports' is not defined                               no-undef
+   978:22  warning  'h' is already defined                                 no-redeclare
+  1490:18  warning  'I' is already defined                                 no-redeclare
+  1614:22  warning  'W' is already defined                                 no-redeclare
+  1689:13  warning  'T' is assigned a value but never used                 no-unused-vars
+  1812:14  warning  'h' is assigned a value but never used                 no-unused-vars
+  2140:13  warning  'M' is assigned a value but never used                 no-unused-vars
+  2182:13  warning  'h' is assigned a value but never used                 no-unused-vars
+  2187:17  warning  'independentValue' is not defined                      no-undef
+  2291:22  warning  'V' is already defined                                 no-redeclare
+  2406:13  warning  'h' is assigned a value but never used                 no-unused-vars
+  2511:10  warning  'clearData' is defined but never used                  no-unused-vars
+  2585:81  warning  Unnecessary semicolon                                  no-extra-semi
+  2589:81  warning  Unnecessary semicolon                                  no-extra-semi
+  2701:10  warning  'pearson' is defined but never used                    no-unused-vars
+  2711:10  warning  'spearman' is defined but never used                   no-unused-vars
+  2732:10  warning  'calculateMean' is defined but never used              no-unused-vars
+  2763:10  warning  'calculateMedian' is defined but never used            no-unused-vars
+  2794:10  warning  'calculateMode' is defined but never used              no-unused-vars
+  2826:10  warning  'calculateRange' is defined but never used             no-unused-vars
+  2858:10  warning  'calculateKurtosis' is defined but never used          no-unused-vars
+  2890:10  warning  'calculateSkewness' is defined but never used          no-unused-vars
+  2922:10  warning  'calculateQuantiles' is defined but never used         no-unused-vars
+  2945:9   warning  'quantile4' is assigned a value but never used         no-unused-vars
+  2956:10  warning  'generateTableRows' is defined but never used          no-unused-vars
+
+/home/runner/work/exp-regression-iitd/exp-regression-iitd/experiment/simulation/Scripts/stats.js
+  1094:8  error  Parsing error: Unexpected token _
+
+/home/runner/work/exp-regression-iitd/exp-regression-iitd/experiment/simulation/script.js
+   54:10  warning  'getFlatData' is defined but never used          no-unused-vars
+  118:1   warning  'google' is not defined                          no-undef
+  120:10  warning  'makeLineChart' is defined but never used        no-unused-vars
+  133:20  warning  'google' is not defined                          no-undef
+  157:21  warning  'google' is not defined                          no-undef
+  170:10  warning  'makePieChart' is defined but never used         no-unused-vars
+  182:20  warning  'google' is not defined                          no-undef
+  204:21  warning  'google' is not defined                          no-undef
+  216:10  warning  'makeBarChart' is defined but never used         no-unused-vars
+  228:20  warning  'google' is not defined                          no-undef
+  249:21  warning  'google' is not defined                          no-undef
+  261:10  warning  'makeScatterChart' is defined but never used     no-unused-vars
+  273:20  warning  'google' is not defined                          no-undef
+  295:21  warning  'google' is not defined                          no-undef
+  313:10  warning  'makeAreaChart' is defined but never used        no-unused-vars
+  325:20  warning  'google' is not defined                          no-undef
+  346:21  warning  'google' is not defined                          no-undef
+  354:1   warning  'google' is not defined                          no-undef
+  356:10  warning  'makeBoxWhiskerChart' is defined but never used  no-unused-vars
+  371:16  warning  'google' is not defined                          no-undef
+  382:21  warning  'google' is not defined                          no-undef
+  399:1   warning  'google' is not defined                          no-undef
+  401:10  warning  'makeTableChart' is defined but never used       no-unused-vars
+  405:20  warning  'google' is not defined                          no-undef
+  429:21  warning  'google' is not defined                          no-undef
+
+✖ 114 problems (1 error, 113 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+

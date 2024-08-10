@@ -1,0 +1,35 @@
+/* This file contians global animations */
+
+
+
+
+
+
+/* Start of Underline animation for links */
+.animation-underline a{
+    position: relative;
+    /* color: #000; */
+    text-decoration: none;
+  }
+  
+  .animation-underline a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-secondary);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .animation-underline a:hover::before {
+    transform: scaleX(1);
+    /* Scale from center */
+  }
+    
+
+/* Start of Underline animation for links */
+  
