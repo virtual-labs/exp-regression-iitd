@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regression | statsVL</title>
+    <link rel="stylesheet" href="../descriptive.css" />
+    <link rel="stylesheet" href="../../../styles/animation.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="../../../Scripts/stats.js"></script>
+
+    <script src="https://kit.fontawesome.com/fa99256fbe.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class="main-grid-item">
+            <header>
+                <div class="animation-underline">
+                    <div class="inline-flex-container">
+                        <h4>
+                            <a class="descrip button mean" href="../mean/mean.html">
+                  Regression
+                </a>
+                        </h4>
+
+                    </div>
+                </div>
+
+                <style>
+                    a {
+                        cursor: pointer;
+                    }
+                    /* .inline-flex-container h4{
+                    padding:0 1rem;
+                } */
+                    
+                    .animation-underline a::before {
+                        background-color: var(--main-primary);
+                    }
+                </style>
+                <a id="home-button" href="/index.html">
+                    <i class="fa-solid fa-house"></i> Statistics Virtual Lab
+                </a>
+            </header>
+        </div>
+
+        <div class="content">
+            <div class="heading">
+                <h2>Regression</h2>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div class="form-group" style="border: 0.5px solid rgb(98, 98, 98);
+                          align-self: center;
+                          border-radius: 16px;
+                          background: #37474F;
+                          margin: 10px;
+                          padding: 30px;
+                          height: fit-content;
+                          width: 600px;
+                          box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);">
+                    <form id="info" autocomplete="off">
+                        <label for="distribution">Choose the type of data:</label>
+                        <select id="distribution" onchange="change()">
+                          <option value="" disabled selected> -- Select a type -- </option>
+                          <option value="pdf">Bivariate Grouped Data</option>
+                          <option value="pmf">Bivariate Data</option>
+                      </select>
+                    </form>
+                </div>
+            </div>
+
+            <script src="./changeFile.js"></script>
+
+
+            <div class="main-grid-item">
+                <footer>
+                    <p>
+                        <!-- <i class="fa-regular fa-copyright"> </i> -->
+                        <a href="https://www.vlab.co.in/" target="_blank">Virutal Lab Project
+            </a>
+                    </p>
+                </footer>
+            </div>
+        </div>
+</body>
+
+</html>
